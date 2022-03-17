@@ -23,7 +23,7 @@ print(f'The word "{most_used_word}" was used {times_word_used} times, '
 
 
 # --- This is my code remade after 3 months of Python Learning. --- #
-# --- (Completed Dr. Chuck's 5 course Specialization and started on Dr. Angela Wu's 100 Python Class) --- #
+# --- (Completed Dr. Chuck's 5 course Specialization, currently on Day 48 of Dr. Angela Wu's 100 Python Class) --- #
 
 all_words = [word for word in file.read().split()]
 unique_words = {word: all_words.count(word) for word in all_words}
