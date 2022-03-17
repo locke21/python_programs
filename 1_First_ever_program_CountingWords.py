@@ -1,6 +1,5 @@
-# --- First Assignment from Dr. Chuck's "Python for Everybody" Specialization. First day learning Python --- #
+# --- Assignment from Dr. Chuck's "Python for Everybody" Specialization. Code written during first week(?) learning Python --- #
 # --- Objective: Load text file and count how many unique words in the file --- #
-# --- The file works off the auto-grader from Coursera so the outputs/Variables makes more sense there --- #
 
 # name = "words.txt"
 name = input('enter file:')
@@ -18,8 +17,7 @@ for key, value in unique_words.items():
         most_used_word = key
         times_word_used = value
 
-print(f'The word "{most_used_word}" was used {times_word_used} times, '
-      f'making it the most used word out of {len(unique_words)} unique words. ')
+print(most_used_word, times_word_used)
 
 
 # --- This is my code remade after 3 months of Python Learning. --- #
