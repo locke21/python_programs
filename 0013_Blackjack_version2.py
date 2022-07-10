@@ -83,7 +83,7 @@ while playing_blackjack:
         new_card = change_face_card(card=new_card)
         player_hand_displayed.append(new_card)
         print(f"Card dealt was: {new_card}.")
-        print(f"Dealer: {len(dealer_hand)} cards || Dealer shows: {dealer_hand_displayed[0]}")
+        print(f"Dealer: {len(dealer_hand)} cards - Dealer shows: {dealer_hand_displayed[0]}")
         print(f"Player: {len(player_hand)} cards - Total: {calc_total(hand=player_hand)} "
               f"|| Your hand: {(', '.join(map(str, player_hand_displayed)))}. ")
         if calc_total(hand=player_hand) > 21:
