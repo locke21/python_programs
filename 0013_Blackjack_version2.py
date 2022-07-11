@@ -3,7 +3,7 @@ import os
 
 clear = lambda: os.system('cls')
 playing_blackjack = True
-card_deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, ]
+card_deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11, ]
 suits = ["Jack", "Queen", "King", ]
 
 dealer_hand = random.choices(card_deck, k=2)
