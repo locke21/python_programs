@@ -3,7 +3,7 @@ import os
 
 
 clear = lambda: os.system('cls')
-target_number = random.randint(1, 101)
+target_number = random.randint(1, 100)
 chances_remaining = 0
 player_guesses = []
 tip_helper = {'low': 'Unknown', 'high': 'Unknown'}
